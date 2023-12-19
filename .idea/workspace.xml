@@ -4,7 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java day1" />
+    <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java day1">
+      <change afterPath="$PROJECT_DIR$/src/operator/Operator1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Operator2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Operator3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Operator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/Var8.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx1Question.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -51,11 +63,18 @@
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.Operator1.executor": "Run",
+    "Application.Operator2.executor": "Run",
+    "Application.Operator3.executor": "Run",
+    "Application.OperatorAdd1.executor": "Run",
+    "Application.OperatorAdd2.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.Var3.executor": "Run",
     "Application.Var5.executor": "Run",
     "Application.Var6.executor": "Run",
+    "Application.VarEx1Question.executor": "Run",
+    "Application.VarEx3.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -70,13 +89,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Var6">
-    <configuration name="Var1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Var1" />
+  <component name="RunManager" selected="Application.OperatorAdd2">
+    <configuration name="Operator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Operator1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,12 +103,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Var2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Var2" />
+    <configuration name="Operator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Operator2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -97,12 +116,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Var3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Var3" />
+    <configuration name="Operator3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.Operator3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,12 +129,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Var5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Var5" />
+    <configuration name="OperatorAdd1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,12 +142,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Var6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="variable.Var6" />
+    <configuration name="OperatorAdd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd2" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="variable.*" />
+          <option name="PATTERN" value="operator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -138,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Var6" />
-        <item itemvalue="Application.Var5" />
-        <item itemvalue="Application.Var3" />
-        <item itemvalue="Application.Var2" />
-        <item itemvalue="Application.Var1" />
+        <item itemvalue="Application.OperatorAdd2" />
+        <item itemvalue="Application.OperatorAdd1" />
+        <item itemvalue="Application.Operator3" />
+        <item itemvalue="Application.Operator2" />
+        <item itemvalue="Application.Operator1" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702620105251</updated>
       <workItem from="1702620106363" duration="3560000" />
-      <workItem from="1702630986654" duration="7672000" />
+      <workItem from="1702630986654" duration="14258000" />
     </task>
     <task id="LOCAL-00001" summary="java day1">
       <option name="closed" value="true" />
@@ -188,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702910973626</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="java day1">
+      <option name="closed" value="true" />
+      <created>1702916001092</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702916001092</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
