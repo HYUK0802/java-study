@@ -4,17 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java day1">
-      <change afterPath="$PROJECT_DIR$/src/operator/Operator1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Operator2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Operator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Operator4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/OperatorAdd2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable/Var8.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx1Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variable/ex/VarEx3.java" afterDir="false" />
+    <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java">
+      <change afterPath="$PROJECT_DIR$/src/cond/If1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/If2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/If3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/If4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/If5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/If6.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Assign1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Comp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Comp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Logical1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/Logical2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -60,9 +64,17 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.CommentJava.executor": "Run",
+    "Application.Comp1.executor": "Run",
+    "Application.Comp2.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
+    "Application.If1.executor": "Run",
+    "Application.If4.executor": "Run",
+    "Application.If5.executor": "Run",
+    "Application.If6.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.OperationEx1.executor": "Run",
+    "Application.OperationEx3.executor": "Run",
     "Application.Operator1.executor": "Run",
     "Application.Operator2.executor": "Run",
     "Application.Operator3.executor": "Run",
@@ -89,13 +101,13 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.OperatorAdd2">
-    <configuration name="Operator1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator1" />
+  <component name="RunManager" selected="Application.If6">
+    <configuration name="If1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.If1" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="cond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +115,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator2" />
+    <configuration name="If4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.If4" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="cond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +128,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operator3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.Operator3" />
+    <configuration name="If5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.If5" />
+      <module name="java-start" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="If6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.If6" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="cond.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,25 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperatorAdd1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd1" />
+    <configuration name="OperationEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OperatorAdd2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.OperatorAdd2" />
-      <module name="java-start" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="operator.*" />
+          <option name="PATTERN" value="operator.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -157,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.OperatorAdd2" />
-        <item itemvalue="Application.OperatorAdd1" />
-        <item itemvalue="Application.Operator3" />
-        <item itemvalue="Application.Operator2" />
-        <item itemvalue="Application.Operator1" />
+        <item itemvalue="Application.If6" />
+        <item itemvalue="Application.If5" />
+        <item itemvalue="Application.If4" />
+        <item itemvalue="Application.If1" />
+        <item itemvalue="Application.OperationEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +187,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702620105251</updated>
       <workItem from="1702620106363" duration="3560000" />
-      <workItem from="1702630986654" duration="14258000" />
+      <workItem from="1702630986654" duration="20248000" />
     </task>
     <task id="LOCAL-00001" summary="java day1">
       <option name="closed" value="true" />
@@ -215,7 +221,15 @@
       <option name="project" value="LOCAL" />
       <updated>1702916001092</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="java">
+      <option name="closed" value="true" />
+      <created>1703000788326</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703000788326</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -223,7 +237,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="java day1" />
-    <option name="LAST_COMMIT_MESSAGE" value="java day1" />
+    <MESSAGE value="java" />
+    <option name="LAST_COMMIT_MESSAGE" value="java" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
