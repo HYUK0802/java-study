@@ -5,20 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/cond/If1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/If2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/If3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/If4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/If5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/cond/If6.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Assign1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Comp1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Comp2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Logical1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/Logical2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/operator/ex/OperationEx3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/CondOp1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/CondOp2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/Switch1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/Switch2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/Switch3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/Switch4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/cond/ex/Ex6.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,6 +64,11 @@
     "Application.CommentJava.executor": "Run",
     "Application.Comp1.executor": "Run",
     "Application.Comp2.executor": "Run",
+    "Application.CondOp1.executor": "Run",
+    "Application.CondOp2.executor": "Run",
+    "Application.Ex4.executor": "Run",
+    "Application.Ex5.executor": "Run",
+    "Application.Ex6.executor": "Run",
     "Application.HelloJava.executor": "Run",
     "Application.HelloJava2.executor": "Run",
     "Application.If1.executor": "Run",
@@ -80,6 +83,10 @@
     "Application.Operator3.executor": "Run",
     "Application.OperatorAdd1.executor": "Run",
     "Application.OperatorAdd2.executor": "Run",
+    "Application.ScoreEx.executor": "Run",
+    "Application.ScoreEx2.executor": "Run",
+    "Application.ScoreEx3.executor": "Run",
+    "Application.Switch1.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
     "Application.Var3.executor": "Run",
@@ -101,13 +108,18 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.If6">
-    <configuration name="If1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.If1" />
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cond" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Ex7">
+    <configuration name="Ex3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Ex3" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,12 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="If4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.If4" />
+    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Ex4" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,19 +140,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="If5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.If5" />
-      <module name="java-start" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="If6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cond.If6" />
+    <configuration name="Ex5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Ex5" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cond.*" />
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -148,12 +153,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationEx3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="operator.ex.OperationEx3" />
+    <configuration name="Ex6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Ex6" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="operator.ex.*" />
+          <option name="PATTERN" value="cond.ex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Ex7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="cond.ex.Ex7" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cond.ex.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -163,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.If6" />
-        <item itemvalue="Application.If5" />
-        <item itemvalue="Application.If4" />
-        <item itemvalue="Application.If1" />
-        <item itemvalue="Application.OperationEx3" />
+        <item itemvalue="Application.Ex7" />
+        <item itemvalue="Application.Ex6" />
+        <item itemvalue="Application.Ex5" />
+        <item itemvalue="Application.Ex4" />
+        <item itemvalue="Application.ScoreEx3" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +205,7 @@
       <option name="presentableId" value="Default" />
       <updated>1702620105251</updated>
       <workItem from="1702620106363" duration="3560000" />
-      <workItem from="1702630986654" duration="20248000" />
+      <workItem from="1702630986654" duration="24622000" />
     </task>
     <task id="LOCAL-00001" summary="java day1">
       <option name="closed" value="true" />
@@ -229,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703000788326</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="java">
+      <option name="closed" value="true" />
+      <created>1703089011984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703089011984</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
