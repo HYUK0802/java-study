@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/practice4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/Factorial.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/Fibonacci2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/recursive/Power.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/variable/practice5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +68,8 @@
     "Application.Ex5.executor": "Run",
     "Application.Ex6.executor": "Run",
     "Application.Ex7.executor": "Run",
+    "Application.Fibonacci.executor": "Run",
+    "Application.Fibonacci2.executor": "Run",
     "Application.For1.executor": "Run",
     "Application.For2.executor": "Run",
     "Application.HelloJava.executor": "Run",
@@ -98,6 +104,7 @@
     "Application.practice.executor": "Run",
     "Application.practice3.executor": "Run",
     "Application.practice4.executor": "Run",
+    "Application.practice5.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
@@ -118,13 +125,13 @@
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.practice4">
-    <configuration name="Ex4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="loop.ex.Ex4" />
+  <component name="RunManager" selected="Application.practice5">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.Fibonacci" />
       <module name="java-start" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="loop.ex.*" />
+          <option name="PATTERN" value="recursive.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -132,22 +139,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlusFunction" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PlusFunction" />
+    <configuration name="Fibonacci2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="recursive.Fibonacci2" />
       <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="recursive.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="practice" />
-      <module name="java-start" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="practice3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice3" />
       <module name="java-start" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -160,13 +166,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="practice5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="variable.practice5" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="variable.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.practice4" />
-        <item itemvalue="Application.practice3" />
-        <item itemvalue="Application.PlusFunction" />
+        <item itemvalue="Application.practice5" />
         <item itemvalue="Application.practice" />
-        <item itemvalue="Application.Ex4" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.Fibonacci2" />
+        <item itemvalue="Application.practice4" />
       </list>
     </recent_temporary>
   </component>
@@ -187,7 +206,7 @@
       <updated>1702620105251</updated>
       <workItem from="1702620106363" duration="3560000" />
       <workItem from="1702630986654" duration="35717000" />
-      <workItem from="1703441748112" duration="3612000" />
+      <workItem from="1703441748112" duration="9259000" />
     </task>
     <task id="LOCAL-00001" summary="java day1">
       <option name="closed" value="true" />
@@ -261,7 +280,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703514910286</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="java">
+      <option name="closed" value="true" />
+      <created>1703692895844</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703692895844</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
