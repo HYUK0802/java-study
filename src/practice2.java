@@ -1,9 +1,10 @@
 public class practice2 {
-        public int[] solution(int[] num_list) {
-            int[] answer = new int[num_list.length];
-            for (int i = 0; i < num_list.length; i++) {
-                answer[i] = num_list[num_list.length - i - 1];
+    public static void main(String[] args) {
+        for (int i = 5; i > 0; i--) {
+            for (int j = 0; j < i; j++) {
+                System.out.print("*");
             }
-            return answer;
+            System.out.println("");
         }
+    }
     }
