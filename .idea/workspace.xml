@@ -5,11 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0c8d410d-a181-4011-a429-040fea630bf5" name="Changes" comment="java">
-      <change afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Star2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Star3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Star4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Star5.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Star.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Star.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Fibonacci.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Fibonacci.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/practice4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/practice4.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,6 +93,8 @@
     "Application.Star.executor": "Run",
     "Application.Star2.executor": "Run",
     "Application.Star3.executor": "Run",
+    "Application.Star4.executor": "Run",
+    "Application.Star5.executor": "Run",
     "Application.Switch1.executor": "Run",
     "Application.Var1.executor": "Run",
     "Application.Var2.executor": "Run",
@@ -128,23 +130,9 @@
       <recent name="cond" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Fibonacci">
+  <component name="RunManager" selected="Application.Star5">
     <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Fibonacci" />
-      <module name="java-start" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Star" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star" />
-      <module name="java-start" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Star2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Star2" />
       <module name="java-start" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -157,8 +145,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="practice2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="practice2" />
+    <configuration name="Star4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star4" />
+      <module name="java-start" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Star5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Star5" />
+      <module name="java-start" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="practice4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="practice4" />
       <module name="java-start" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,11 +174,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Star5" />
+        <item itemvalue="Application.Star4" />
         <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.practice4" />
         <item itemvalue="Application.Star3" />
-        <item itemvalue="Application.Star2" />
-        <item itemvalue="Application.Star" />
-        <item itemvalue="Application.practice2" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +199,7 @@
       <updated>1702620105251</updated>
       <workItem from="1702620106363" duration="3560000" />
       <workItem from="1702630986654" duration="35717000" />
-      <workItem from="1703441748112" duration="29538000" />
+      <workItem from="1703441748112" duration="36300000" />
     </task>
     <task id="LOCAL-00001" summary="java day1">
       <option name="closed" value="true" />
@@ -289,7 +297,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703954652598</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="java">
+      <option name="closed" value="true" />
+      <created>1704058881838</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1704058881838</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -8,7 +8,7 @@ public class Fibonacci {
     }
 
     public static void main(String[] args) {
-        int result = CalcFibonacci(9);
+        int result = CalcFibonacci(5);
         System.out.println(result);
     }
 }
